@@ -3270,6 +3270,8 @@
                               <input
                                 type="text"
                                 id="idToken1"
+                                readonly
+                                onfocus="this.removeAttribute('readonly');"
                                 name="username"
                                 value=""
                                 data-validator="required"
@@ -3306,6 +3308,8 @@
                                 type="password"
                                 id="idToken2"
                                 name="password"
+                                readonly
+                                onfocus="this.removeAttribute('readonly');"
                                 class="form-control input-lg uk-width-medium-6-10 uk-margin-top"
                                 placeholder="Enter your password"
                                 value=""
